@@ -10,7 +10,7 @@
 ## Project title: I-Donate
 
 ## Project Introduction
-This project emphasizing the act of giving as it could be useful for generous citizen of Malaysia in helping each other. I-Donate is donation mobile application platform that build using Javascript using React Native framework. This application is developed for the community to share with those in need.  
+This project is emphasizing the act of giving as it could be useful for generous citizen of Malaysia in helping each other. I-Donate is donation mobile application platform that build using Javascript using React Native framework. This application is developed for the community to share with the charity organization that in need.  
 
 ## Project Objective
 1. To connect those in need with the donor digitally.
