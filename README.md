@@ -20,7 +20,7 @@ This project is emphasizing the act of giving as it could be useful for generous
 
 ## Features and Functionalities
 1. User Account Registration.
-\'User need to create their account to allow them make any donation through the application. From this feature, it is apparent that the login and logout feature is present on the mobile application.'
+!User need to create their account to allow them make any donation through the application. From this feature, it is apparent that the login and logout feature is present on the mobile application.
 3. User Account Registration 
 User need to create their account to allow them making any donation through the application.  
 From this feature, it is apparent that the login and feature is present on the mobile application.
