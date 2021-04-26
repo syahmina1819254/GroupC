@@ -19,6 +19,21 @@ This project is emphasizing the act of giving as it could be useful for generous
 4. To ease the fundraising activity through online platform.  
 
 ## Features and Functionalities
+1. User Account Registration 
+User need to create their account to allow them making any donation through the application.  
+From this feature, it is apparent that the login and feature is present on the mobile application.
+
+2. Donation history.
+User can view donation detail that has been made which is the date and the organisation 
+
+3. Payment gateway.
+After users choose the organisation that they want to donate, user will proceed to payment where they can choose which method they want to use from the payment option such as online banking and debit or credit card.
+
+4. List of Organisation
+User can view the detail of organisation which is about the organisation and the purpose of donation
+
+5. Make Donation
+User can simply select the organisation that they want to donate and proceed to payment.
 
 ## Screen navigation(routing) and components (presentational and container) implementation with a diagram.
 
