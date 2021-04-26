@@ -14,7 +14,7 @@ This project is emphasizing the act of giving as it could be useful for generous
 
 ## Project Objective
 1. To connect those in need with the donor digitally.
-2. To encourage the act og giving among Malaysian. 
+2. To encourage the act of giving among Malaysian. 
 3. To provide assistance to the charity organization that in need of help. 
 4. To ease the fundraising activity through online platform.  
 
