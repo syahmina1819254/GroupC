@@ -31,7 +31,7 @@ After users choose the organisation that they want to donate, user will proceed 
 *4. List of Organisation.*
 User can view the detail of organisation which is about the organisation and the purpose of donation
 
-*5. Make Donation*
+*5. Make Donation.*
 User can simply select the organisation that they want to donate and proceed to payment.
 
 ## Screen navigation(routing) and components (presentational and container) implementation with a diagram.
