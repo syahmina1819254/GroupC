@@ -23,6 +23,9 @@ This project is emphasizing the act of giving as it could be useful for generous
 ## Screen navigation(routing) and components (presentational and container) implementation with a diagram.
 
 ## Sequence diagram
+![Sequence diagram](https://user-images.githubusercontent.com/74192884/116032855-fae9e280-a692-11eb-8dbe-20f58135ec95.png)
+![Sequence diagram (1)](https://user-images.githubusercontent.com/74192884/116032891-0937fe80-a693-11eb-99c2-f772d6bd25d7.png)
+
 
 ## References
 1. Hub Help. (n.d.). Markdown Syntax. Jetbrains.com. Retrieved April 26, 2021, from https://www.jetbrains.com/help/hub/Markdown-Syntax.html#quick-notes-markdown-lists
