@@ -3,7 +3,7 @@
 ## Name and Matric No of the group members. 
 1. Nur Syahmina Bt Kadir (1819254)
 2. Nor Aimie Nadia binti Yusrin (1710006)
-3. Siti Nurbalqis (1715230)
+3. Siti Nurbalqis binti Saharudin (1715230)
 4. Nurul Athirah Binti Mohd Borhan (1813606)
 5. Assmida binti Hassdee (1819114)
 
