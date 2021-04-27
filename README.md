@@ -45,7 +45,7 @@ User can simply select the organisation that they want to donate and proceed to 
 
 ## A sequence diagram to represent the interaction of the proposed mobile application.
 
-### 1. Log In Page 
+### 1. LogIn Page 
 ![1](https://user-images.githubusercontent.com/55779824/116255438-d41bd100-a7a4-11eb-9857-41cdca2b5c51.PNG)
 
 ### 2. Registration Page 
@@ -60,7 +60,7 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 5. List of Oragnisation Page
 ![5](https://user-images.githubusercontent.com/55779824/116255863-396fc200-a7a5-11eb-8418-0f5946c9411d.PNG)
 
-### 6. Oragnisation Details Page 
+### 6. Organisation Details Page 
 ![6](https://user-images.githubusercontent.com/55779824/116256141-7e93f400-a7a5-11eb-9adc-5b2a317fe3d8.PNG)
 
 ### 7. Payment Page 
