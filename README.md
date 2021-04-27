@@ -36,6 +36,9 @@ User can simply select the organisation that they want to donate and proceed to 
 
 ## Screen navigation(routing) and components (presentational and container) implementation with a diagram.
 
+![Screenshot (6)](https://user-images.githubusercontent.com/74192884/116253274-e8f76500-a7a2-11eb-8834-5a76379a1ec6.png)
+
+
 ## Sequence diagram
 
 ![Sequence diagram](https://user-images.githubusercontent.com/74192884/116032855-fae9e280-a692-11eb-8dbe-20f58135ec95.png)
