@@ -45,33 +45,33 @@ User can simply select the organisation that they want to donate and proceed to 
 
 ## A sequence diagram to represent the interaction of the proposed mobile application.
 
-# 1. Log In Page 
+### 1. Log In Page 
 ![1](https://user-images.githubusercontent.com/55779824/116255438-d41bd100-a7a4-11eb-9857-41cdca2b5c51.PNG)
 
-# 2. Registration Page 
+### 2. Registration Page 
 ![3](https://user-images.githubusercontent.com/55779824/116255562-ee55af00-a7a4-11eb-9cf8-536bc533a7d2.PNG)
 
-# 3. Profile page 
+### 3. Profile page 
 ![4](https://user-images.githubusercontent.com/55779824/116255742-1e9d4d80-a7a5-11eb-91d4-dfbc68d2af7f.PNG)
 
-# 4. Dashboard Page 
+### 4. Dashboard Page 
 ![2](https://user-images.githubusercontent.com/55779824/116255623-01687f00-a7a5-11eb-84c2-f763019383ff.PNG)
 
-# 5. List of Oragnisation Page
+### 5. List of Oragnisation Page
 ![5](https://user-images.githubusercontent.com/55779824/116255863-396fc200-a7a5-11eb-8418-0f5946c9411d.PNG)
 
-# 6. Oragnisation Details Page 
+### 6. Oragnisation Details Page 
 ![6](https://user-images.githubusercontent.com/55779824/116256141-7e93f400-a7a5-11eb-9adc-5b2a317fe3d8.PNG)
 
-# 7. Payment Page 
+### 7. Payment Page 
 ![8](https://user-images.githubusercontent.com/55779824/116255977-54423680-a7a5-11eb-99bb-31c06e3953c5.PNG)
 
-# 8. Payment History Page
+### 8. Payment History Page
 ![7](https://user-images.githubusercontent.com/55779824/116256232-953a4b00-a7a5-11eb-8e73-a6cb7f5f8ec3.PNG)
 
-# 9. Nav Bar
+### 9. Nav Bar
 ![9](https://user-images.githubusercontent.com/55779824/116256274-a1260d00-a7a5-11eb-9f91-eaf9804e4b82.PNG)
 
 ## References
 1. Hub Help. (n.d.). Markdown Syntax. Jetbrains.com. Retrieved April 26, 2021, from https://www.jetbrains.com/help/hub/Markdown-Syntax.html#quick-notes-markdown-lists
-2. Figma. Prototype of I-donate Mobile Application https://www.figma.com/proto/qojtPlKIqC4CUigVWUwi7r/Assmida-Hassdee's-team-library?node-id=319%3A9&scaling=scale-down&page-id=0%3A1
+2. Figma. Prototype of I-donate Mobile Application https://www.figma.com/proto/qojtPlKIqC4CUigVWUwi7r/Assmida-Hassdee-s-team-library?node-id=319%3A9&scaling=scale-down&page-id=0%3A1
