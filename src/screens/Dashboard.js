@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Button, Text, StyleSheet} from 'react-native';
-import Slider from './components/Slider';
+import Slider, {images} from './components/Slider';
 
 const Separator = () => (
   <View style={style.separator} />
