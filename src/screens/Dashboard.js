@@ -1,12 +1,21 @@
 import React, {Component} from 'react';
 import {View, Button, Text, StyleSheet} from 'react-native';
+<<<<<<< HEAD
 import Slider, {images} from '../screens/Slider';
+=======
+import Slider, {images} from './components/Slider';
+>>>>>>> b3be21d5cf6be83230be6df0f00ec912482bba77
 
 const Separator = () => (
   <View style={style.separator} />
 );
 
+<<<<<<< HEAD
 export default class Dashboard extends Component{
+=======
+
+export default class App extends Component{
+>>>>>>> b3be21d5cf6be83230be6df0f00ec912482bba77
 
   render(){
     return(
@@ -50,4 +59,9 @@ const style = StyleSheet.create({
     borderBottomColor: '#737373',
   },
 
+<<<<<<< HEAD
 })
+=======
+})
+
+>>>>>>> b3be21d5cf6be83230be6df0f00ec912482bba77
