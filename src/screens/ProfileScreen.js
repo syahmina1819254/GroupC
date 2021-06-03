@@ -5,7 +5,7 @@ import { Container, Content, Footer, FooterTab, Button, Icon, Text, Form, Item, 
 import { addUser } from '../services/DataService';
 import * as firebase from 'firebase';
 
-export default class SignupScreen extends React.Component {
+export default class ProfileScreen extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -84,6 +84,7 @@ export default class SignupScreen extends React.Component {
   
     render() {
       return (
+        //<ImageBackground  source={'bg.png'} style={{width: '100%', height: '100%'}}>
         <ScrollView>
         <Container style={styles.container}>
         <Container style={styles.container2}>
@@ -150,6 +151,7 @@ export default class SignupScreen extends React.Component {
           </Container>
         </Container>
         </ScrollView>
+        //</ImageBackground>
       );
     }
   }
@@ -166,7 +168,6 @@ export default class SignupScreen extends React.Component {
       flex: 1,
       backgroundColor: "white",
       borderRadius: 20 ,
-      //alignItems: "center",
       padding: 15,
     },
     input: {
