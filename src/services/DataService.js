@@ -13,6 +13,16 @@ export const addUser =  (name,gender,icno,dob,address,email,password) => {
     }, () => Actions.LoginScreen());
 }
 
+export const addDonation =  (amount, Organisation, PaymentMethod,Date,DonationID) => {
+    let user=firebase.auth().currentUser;
+    var userid=user.uid;
+    db.ref('/Donation').child(userid).child(DonationID).set({
+        amount: amount,
+        Organisation: Organisation,
+        PaymentMethod: PaymentMethod,
+        Date: Date,
+    }, () => Actions.donationHistory());
+}
 // export const updateStudent =  (name, matricno, major, year, status) => {
 //     db.ref('/students').child(matricno).update({
 //         name: name,
