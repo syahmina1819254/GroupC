@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import { StyleSheet, View, TouchableOpacity, Image, Text } from "react-native";
 import { Actions } from 'react-native-router-flux';
 
-function Untitled(props) {
+function donateList(props) {
   return (
     <View style={styles.container}>
+    
+    
+    
       <View style={styles.rect}>
         <TouchableOpacity
-        onPress={()=> Actions.Dashboard()}
+        onPress={()=> Actions.Dashboard()} {/* Put Donation Details Rumah Kasih here */}
          style={styles.button}>
           <View style={styles.imageRow}>
             <Image
@@ -25,6 +28,10 @@ function Untitled(props) {
           </View>
         </TouchableOpacity>
       </View>
+
+
+
+
       <Text style={styles.header}>LIST OF ORGANIZATIONS</Text>
     </View>
   );
@@ -88,4 +95,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Untitled;
+export default donateList;
