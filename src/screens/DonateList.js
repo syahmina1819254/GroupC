@@ -10,7 +10,79 @@ function donateList(props) {
     
       <View style={styles.rect}>
         <TouchableOpacity
-        onPress={()=> Actions.Dashboard()} {/* Put Donation Details Rumah Kasih here */}
+        onPress={()=> Actions.Dashboard()} 
+         style={styles.button}>
+          <View style={styles.imageRow}>
+            <Image
+              source={{uri:'http://4.bp.blogspot.com/-O0vMfUzRIuI/WsZS4JA3C2I/AAAAAAAABCA/SqExYlNbwrMb1KuD5BEX-dM_erX5rD4GACK4BGAYYCw/s1600/logo_rtk_rumah_titian_kasih%2B%25281%2529.jpg',
+              }}
+              resizeMode="contain"
+              style={styles.image}
+            ></Image>
+            <View style={styles.rumahTitianKasihColumn}>
+              <Text style={styles.rumahTitianKasih}>Rumah Titian Kasih</Text>
+              <Text style={styles.rumahTitianKasih1}>
+                Home for the disabled and the elderly
+              </Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={()=> Actions.Dashboard()} 
+         style={styles.button}>
+          <View style={styles.imageRow}>
+            <Image
+              source={{uri:'http://4.bp.blogspot.com/-O0vMfUzRIuI/WsZS4JA3C2I/AAAAAAAABCA/SqExYlNbwrMb1KuD5BEX-dM_erX5rD4GACK4BGAYYCw/s1600/logo_rtk_rumah_titian_kasih%2B%25281%2529.jpg',
+              }}
+              resizeMode="contain"
+              style={styles.image}
+            ></Image>
+            <View style={styles.rumahTitianKasihColumn}>
+              <Text style={styles.rumahTitianKasih}>Rumah Titian Kasih</Text>
+              <Text style={styles.rumahTitianKasih1}>
+                Home for the disabled and the elderly
+              </Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={()=> Actions.Dashboard()} 
+         style={styles.button}>
+          <View style={styles.imageRow}>
+            <Image
+              source={{uri:'http://4.bp.blogspot.com/-O0vMfUzRIuI/WsZS4JA3C2I/AAAAAAAABCA/SqExYlNbwrMb1KuD5BEX-dM_erX5rD4GACK4BGAYYCw/s1600/logo_rtk_rumah_titian_kasih%2B%25281%2529.jpg',
+              }}
+              resizeMode="contain"
+              style={styles.image}
+            ></Image>
+            <View style={styles.rumahTitianKasihColumn}>
+              <Text style={styles.rumahTitianKasih}>Rumah Titian Kasih</Text>
+              <Text style={styles.rumahTitianKasih1}>
+                Home for the disabled and the elderly
+              </Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={()=> Actions.Dashboard()} 
+         style={styles.button}>
+          <View style={styles.imageRow}>
+            <Image
+              source={{uri:'http://4.bp.blogspot.com/-O0vMfUzRIuI/WsZS4JA3C2I/AAAAAAAABCA/SqExYlNbwrMb1KuD5BEX-dM_erX5rD4GACK4BGAYYCw/s1600/logo_rtk_rumah_titian_kasih%2B%25281%2529.jpg',
+              }}
+              resizeMode="contain"
+              style={styles.image}
+            ></Image>
+            <View style={styles.rumahTitianKasihColumn}>
+              <Text style={styles.rumahTitianKasih}>Rumah Titian Kasih</Text>
+              <Text style={styles.rumahTitianKasih1}>
+                Home for the disabled and the elderly
+              </Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={()=> Actions.Dashboard()} 
          style={styles.button}>
           <View style={styles.imageRow}>
             <Image
@@ -48,13 +120,13 @@ const styles = StyleSheet.create({
     height: 638,
     backgroundColor: "white",
     borderRadius: 20,
-    marginTop: 174
+    marginTop: 130
   },
   button: {
     width: 375,
     height: 102,
     backgroundColor: "white",
-    marginTop: 7,
+    marginTop: 5,
     borderRadius: 10,
   },
   image: {
