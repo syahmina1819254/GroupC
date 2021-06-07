@@ -14,9 +14,8 @@ export default function App() {
       style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
-      Oku Nur was founded more than 10 years ago and the main purpose 
-      is to take care of the elderly and the disabled. Oku Nur houses 
-      more than 90 residents consisting of men, women and children 
+      Oku Nur's main purpose is to take care of the elderly and the disabled. 
+      Oku Nur houses more than 90 residents consisting of men, women and children 
       aged between eight months to 97 years. These people come from a 
       variety of backgrounds and have their own problems. Some have 
       disabilities such as paralysis, Down syndrome and mental retardation. 
