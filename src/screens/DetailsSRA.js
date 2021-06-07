@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import sra from './components/sra.jpg';
 
 const Separator = () =>(
   <View style={styles.separator}/>
@@ -11,7 +10,8 @@ export default function App() {
     <View style={styles.container}>
       <View style={{flex: 1, backgroundColor: '#CDEBC8'}}></View>
       <Text style={StyleSheet.header}>RUMAH PERLINDUNGAN ORANG TUA SRA</Text>
-      <Image source={sra} style={{ width: 300, height: 250 }} />
+      <Image source={{uri:'https://scontent.fkul13-1.fna.fbcdn.net/v/t1.6435-9/82245767_104187164440837_2535685521179410432_n.png?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=HEvWmqT3IogAX_VkYDh&tn=x9jtqJzPpHmllqgO&_nc_ht=scontent.fkul13-1.fna&oh=611ebe7d23f2ae6e979f8ece6de5ab69&oe=60D99793'}} 
+      style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
       The SRA Elderly Care Center (PJWTSRA) was established for the purpose of 

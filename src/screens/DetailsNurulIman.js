@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import nuruliman from './components/nuruliman.jpg';
 
 const Separator = () =>(
   <View style={styles.separator}/>
@@ -11,7 +10,8 @@ export default function App() {
     <View style={styles.container}>
       <View style={{flex: 1, backgroundColor: '#CDEBC8'}}></View>
       <Text style={StyleSheet.header}>RUMAH NURUL IMAN</Text>
-      <Image source={nuruliman} style={{ width: 300, height: 250 }} />
+      <Image source={{uri:'https://www.nuruliman.cc/images/logo.png'}} 
+      style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
       Rumah Nurul Iman will ensure that every child under its care 

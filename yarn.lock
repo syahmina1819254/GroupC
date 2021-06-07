@@ -5058,6 +5058,11 @@ mockdate@^3.0.2:
   resolved "https://registry.yarnpkg.com/mockdate/-/mockdate-3.0.5.tgz#789be686deb3149e7df2b663d2bc4392bc3284fb"
   integrity sha512-iniQP4rj1FhBdBYS/+eQv7j1tadJ9lJtdzgOpvsOHng/GbcDh2Fhdeq+ZRldrPYdXvCyfFUmFeEwEGXZB5I/AQ==
 
+moment@^2.29.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
@@ -5825,7 +5830,7 @@ react-native-reanimated@~2.1.0:
 
 react-native-router-flux@^4.3.1:
   version "4.3.1"
-  resolved "https://registry.npmjs.org/react-native-router-flux/-/react-native-router-flux-4.3.1.tgz"
+  resolved "https://registry.yarnpkg.com/react-native-router-flux/-/react-native-router-flux-4.3.1.tgz#5869bbf0657a2a34a5ae47b6d6e94e3b10959701"
   integrity sha512-WeNgkHvRGIUz/AlfdSiTAjctgbIzC9oyPJ4yvGKxuM0qohltDjdB4a02vlNSjve7NS+5aSQMEWZAfINgnZGg+w==
   dependencies:
     "@babel/runtime" "^7.6.0"

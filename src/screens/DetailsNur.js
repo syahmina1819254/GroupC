@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import titiannur from './components/titiannur.jpg';
 
 const Separator = () =>(
   <View style={styles.separator}/>
@@ -11,7 +10,8 @@ export default function App() {
     <View style={styles.container}>
       <View style={{flex: 1, backgroundColor: '#CDEBC8'}}></View>
       <Text style={StyleSheet.header}>PUSAT JAGAAN OKU NUR</Text>
-      <Image source={titiannur} style={{ width: 300, height: 250 }} />
+      <Image source={{uri:'https://pbs.twimg.com/profile_images/581658588965314560/x60cbeJl_400x400.jpg'}} 
+      style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
       Oku Nur was founded more than 10 years ago and the main purpose 

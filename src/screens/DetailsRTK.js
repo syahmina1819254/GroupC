@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import RTK from './components/RTK.jpg';
 
 const Separator = () =>(
   <View style={styles.separator}/>
@@ -11,7 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={{flex: 1, backgroundColor: '#CDEBC8'}}></View>
       <Text style={StyleSheet.header}>RUMAH TITIAN KASEH</Text>
-      <Image source={RTK} style={{ width: 300, height: 250 }} />
+      <Image source={{uri:'http://4.bp.blogspot.com/-O0vMfUzRIuI/WsZS4JA3C2I/AAAAAAAABCA/SqExYlNbwrMb1KuD5BEX-dM_erX5rD4GACK4BGAYYCw/s1600/logo_rtk_rumah_titian_kasih%2B%25281%2529.jpg'}} style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
         Rumah Titian Kaseh is a mixed welfare home for disabled and homeless people including

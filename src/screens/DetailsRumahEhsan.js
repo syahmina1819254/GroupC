@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import rumahehsan from './components/rumahehsan.png';
+
 
 const Separator = () =>(
   <View style={styles.separator}/>
@@ -11,7 +11,8 @@ export default function App() {
     <View style={styles.container}>
       <View style={{flex: 1, backgroundColor: '#CDEBC8'}}></View>
       <Text style={StyleSheet.header}>RUMAH EHSAN KUALA KUBU BHARU</Text>
-      <Image source={rumahehsan} style={{ width: 300, height: 250 }} />
+      <Image source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgBj1QifYHuA1W96lmeyzb7S5XWJqMbqzlKce9ffSuj5DGSPCWih3pRhUkIuXfhQP0efs&usqp=CAU'}} 
+      style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
       Rumah Ehsan (RE) was established to provide care, treatment and protection to the 
