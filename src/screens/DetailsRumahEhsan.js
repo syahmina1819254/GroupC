@@ -14,10 +14,11 @@ export default function App() {
       <Image source={rumahehsan} style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
-        Rumah Titian Kaseh is a mixed welfare home for disabled and homeless people including
-        elderly, single mothers and children. Majority of residents are children aged up to 18 years old (90 children)
-        from various social background. Most of them have poor access to education with poor literacy rate.
-        Health education is also an area that is lacking for the residents.
+      Rumah Ehsan (RE) was established to provide care, treatment and protection to the 
+      elderly who are ill, poor and have no inheritance in order to continue living in 
+      a comfortable and peaceful environment. Services and facilities provided at RE 
+      are as follows:Care and protection, Guidance and counseling, Physiotherapy 
+      services, Religious guidance, Recreation and rehabilitation work, Medical treatment.
       </Text>
       <Separator/>
       <View style={styles.button}>

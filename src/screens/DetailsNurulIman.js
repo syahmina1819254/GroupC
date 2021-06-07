@@ -14,10 +14,12 @@ export default function App() {
       <Image source={nuruliman} style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
-        Rumah Titian Kaseh is a mixed welfare home for disabled and homeless people including
-        elderly, single mothers and children. Majority of residents are children aged up to 18 years old (90 children)
-        from various social background. Most of them have poor access to education with poor literacy rate.
-        Health education is also an area that is lacking for the residents.
+      Rumah Nurul Iman will ensure that every child under its care 
+      receives the necessary love and observation to ensure that the 
+      child always feels cared for and loved by the Perak Nurul Iman 
+      Love Welfare Organization. In accordance with its establishment, 
+      Rumah Nurul Iman is ready to help orphans, the poor and neglected 
+      in terms of providing protection, care and education.
       </Text>
       <Separator/>
       <View style={styles.button}>

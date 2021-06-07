@@ -14,10 +14,11 @@ export default function App() {
       <Image source={sra} style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
-        Rumah Titian Kaseh is a mixed welfare home for disabled and homeless people including
-        elderly, single mothers and children. Majority of residents are children aged up to 18 years old (90 children)
-        from various social background. Most of them have poor access to education with poor literacy rate.
-        Health education is also an area that is lacking for the residents.
+      The SRA Elderly Care Center (PJWTSRA) was established for the purpose of 
+      caring for the elderly. The elderly in PJWTSRA consist of those who are 
+      left in the hospital who are not claimed for more than 1 month and above, 
+      families who are unable to manage their elderly and the elderly who have 
+      no shelter and live alone.
       </Text>
       <Separator/>
       <View style={styles.button}>

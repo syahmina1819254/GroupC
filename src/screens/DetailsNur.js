@@ -14,10 +14,14 @@ export default function App() {
       <Image source={titiannur} style={{ width: 300, height: 250 }} />
       <Separator/>
       <Text style={styles.content}>
-        Rumah Titian Kaseh is a mixed welfare home for disabled and homeless people including
-        elderly, single mothers and children. Majority of residents are children aged up to 18 years old (90 children)
-        from various social background. Most of them have poor access to education with poor literacy rate.
-        Health education is also an area that is lacking for the residents.
+      Oku Nur was founded more than 10 years ago and the main purpose 
+      is to take care of the elderly and the disabled. Oku Nur houses 
+      more than 90 residents consisting of men, women and children 
+      aged between eight months to 97 years. These people come from a 
+      variety of backgrounds and have their own problems. Some have 
+      disabilities such as paralysis, Down syndrome and mental retardation. 
+      There are also those who are among the elderly who suffer from various 
+      diseases such as heart, diabetes and high blood pressure.
       </Text>
       <Separator/>
       <View style={styles.button}>
