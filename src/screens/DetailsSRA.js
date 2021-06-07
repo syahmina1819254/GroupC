@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
-
+import { Actions } from 'react-native-router-flux';
 import sra from './components/sra.jpg';
 
 const Separator = () =>(
