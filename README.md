@@ -67,7 +67,7 @@ User can simply select the organisation that they want to donate and proceed to 
 ![8](https://user-images.githubusercontent.com/55779824/116255977-54423680-a7a5-11eb-99bb-31c06e3953c5.PNG)
 
 ### 8. Payment History Page
-![7](https://user-images.githubusercontent.com/55779824/116256232-953a4b00-a7a5-11eb-8e73-a6cb7f5f8ec3.PNG)
+[Payment history latest](https://user-images.githubusercontent.com/55779824/121316778-405d2900-c93c-11eb-9973-7da4e4b2a4f9.PNG)
 
 ### 9. Nav Bar
 ![9](https://user-images.githubusercontent.com/55779824/116256274-a1260d00-a7a5-11eb-9f91-eaf9804e4b82.PNG)
