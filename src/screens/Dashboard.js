@@ -25,7 +25,7 @@ export default class App extends Component{
         onPress={()=> Actions.DonateList()}></Button>
 <Separator/>
   <Button color='#518947' title="Donation History"
-        onPress={Actions.DonateList()}></Button> {/*Put Donation History Scene Key later*/}
+        onPress={Actions.PaymentHistory()}></Button> {/*Put Donation History Scene Key later*/}
   </View>
   </View>
     )
