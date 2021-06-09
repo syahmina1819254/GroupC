@@ -10,6 +10,7 @@ import DetailsNurulIman from './src/screens/DetailsNurulIman';
 import DetailsRTK from './src/screens/DetailsRTK';
 import DetailsRumahEhsan from './src/screens/DetailsRumahEhsan';
 import DetailsSRA from './src/screens/DetailsSRA';
+import PaymentHistory from './src/screen/PaymentHistory'
 
 export default class App extends Component {
   render() {
@@ -26,6 +27,7 @@ export default class App extends Component {
           <Scene key="DetailsRTK" component={DetailsRTK} left={()=>null} title="i-Donate"  />
           <Scene key="DetailsRumahEhsan" component={DetailsRumahEhsan} left={()=>null} title="i-Donate"  />
           <Scene key="DetailsSRA" component={DetailsSRA} left={()=>null} title="i-Donate"  />
+          <Scene key="PaymentHistory" component={PaymentHistory} left={()=>null} title="i-Donate"  />
         </Scene>
       </Router>
     )
