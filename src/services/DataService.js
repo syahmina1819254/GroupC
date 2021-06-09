@@ -1,5 +1,6 @@
 import { db } from '../config/db';
 import { Actions } from 'react-native-router-flux';
+import * as firebase from 'firebase';
 
 export const addUser =  (name,gender,icno,dob,address,email,password) => {
     db.ref('/users').child(icno).set({
@@ -16,12 +17,12 @@ export const addUser =  (name,gender,icno,dob,address,email,password) => {
 export const addDonation =  (amount, Organisation, PaymentMethod,Date,DonationID) => {
     let user=firebase.auth().currentUser;
     var userid=user.uid;
-    db.ref('/Donation').child(userid).child(DonationID).set({
+    db.ref('/Donation'+userid).child(DonationID).set({
         amount: amount,
         Organisation: Organisation,
         PaymentMethod: PaymentMethod,
         Date: Date,
-    }, () => Actions.donationHistory());
+    }, () => Actions.PaymentHistory());
 }
 // export const updateStudent =  (name, matricno, major, year, status) => {
 //     db.ref('/students').child(matricno).update({
@@ -33,7 +34,10 @@ export const addDonation =  (amount, Organisation, PaymentMethod,Date,DonationID
 //     }, () => Actions.ListScreen());
 // }
 
-// export const removeStudent =  (matricno) => {
-//     db.ref('/students').child(matricno).remove();
-//     Actions.ListScreen();
-// }
+export const removeDonation =  (DonationID) => {
+    let user=firebase.auth().currentUser;
+    var userid=user.uid;
+    db.ref('/Donation'+userid).child().remove();
+    Actions.PaymentHistory();
+}
+
