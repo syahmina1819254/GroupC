@@ -71,6 +71,17 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 8. Nav Bar
 ![9](https://user-images.githubusercontent.com/55779824/116256274-a1260d00-a7a5-11eb-9f91-eaf9804e4b82.PNG)
 
+## Project system captured screen and explaination.
+
+### 1. LogIn Page : Page for user to login into the system. User need to provide a valid email and password upon the login to enable the system verifying their account. 
+![1](https://user-images.githubusercontent.com/55779756/121682921-434c4b00-caef-11eb-93a7-7f6f1e53df25.jpg)
+
+### 2. Registration Page : User is required to register their account using email and password before using the system. 
+![2](https://user-images.githubusercontent.com/55779756/121682989-5bbc6580-caef-11eb-9649-59c1a7142e16.jpg)
+
+## Challenges/Diffuculties to develop the application.
+1. Ecountered some error that does not have the solution over the internet.   
+
 ## YouTube Presentation Link
 
 https://youtu.be/WkAnelOGiUo
