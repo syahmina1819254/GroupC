@@ -35,7 +35,7 @@ export default class LoginScreen extends Component {
            Alert.alert('Status', error.toString(error));
           });
      } else {
-       Alert.alert('Status','Invalid Email & Password!');
+       Alert.alert('Status','Please enter your email and password');
      }
       } catch (error) {
         console.log(error.toString(error));
