@@ -1,42 +1,16 @@
 import React, { Component } from 'react';
 import { Actions } from 'react-native-router-flux';
-import { Alert, ScrollView, StyleSheet, ImageBackground} from 'react-native';
-import { Container, Content, Footer, FooterTab, Button, Icon, Text, Form, Item, Label, Input, Picker } from 'native-base';
-import { addUser } from '../services/DataService';
+import { Alert, StyleSheet, ScrollView} from 'react-native';
+import { Container, Button, Text, Form, Item, Input} from 'native-base';
 import * as firebase from 'firebase';
 
 export default class SignupScreen extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        name: "",
-        gender: "",
-        icno: null,
-        dob: null,
-        address:"",
         email: "",
         password: ""
       };
-    }
-  
-    setName = (value) =>{
-      this.setState({ name: value });
-    }
-
-    setGender = (value) => {
-      this.setState({ gender: value });
-    }
-  
-    setIcNo = (value) =>{
-      this.setState({ icno: value });
-    }
-
-    setDOB = (value) =>{
-      this.setState({ dob: value });
-    }
-  
-    setAddress = (value) =>{
-      this.setState({ address: value });
     }
   
     setEmail = (value) =>{
@@ -45,19 +19,6 @@ export default class SignupScreen extends React.Component {
 
     setPassword = (value) =>{
       this.setState({ password: value });
-    }
-
-    saveData = () =>{
-      if(this.state.name && this.state.gender && this.state.icno && this.state.dob && this.state.address && this.state.email && this.state.password){
-        if(isNaN(this.state.email && this.state.password)){
-          Alert.alert('Status','Email and Password cannot leave blank!');
-        }
-         else{
-           addUser(this.state.name && this.state.gender && this.state.icno && this.state.dob && this.state.address && this.state.email && this.state.password);
-         }
-      } else{
-         Alert.alert('Status','Empty Field(s)!');
-      }
     }
 
     signUp = () =>{
@@ -74,8 +35,9 @@ export default class SignupScreen extends React.Component {
               .catch(error => {
                 Alert.alert('Status',error.toString(error));
               });
-         } else {
-            Alert.alert('Status','Invalid Email or Password!');
+          }
+          else {
+            Alert.alert('Status','Name and password cannot leave blank!');
            }
           } catch (error) {
             Alert.alert({ errorMessage: error.message });
@@ -87,43 +49,8 @@ export default class SignupScreen extends React.Component {
         <ScrollView>
         <Container style={styles.container}>
         <Container style={styles.container2}>
-        <Text style={{color: '#365314',fontSize: 30, textAlign: "center", height: 40, fontWeight: "bold", marginTop: 20}}>REGISTRATION</Text>
+        <Text style={{color: '#365314',fontSize: 30, textAlign: "center", height: 40, fontWeight: "bold", marginTop: 100, marginBottom: 30}}>REGISTRATION</Text>
           <Form>
-          <Item style={styles.inputstyle}>
-              <Input placeholder='Full Name' style={styles.input}
-                autoCapitalize="none"
-                autoCorrect={false}
-                onChangeText={this.setName}
-              />
-            </Item>
-            <Item style={styles.inputstyle}>
-              <Input placeholder='Gender' style={styles.input}
-                autoCapitalize="none"
-                autoCorrect={false}
-                onChangeText={this.setGender}
-              />
-            </Item>
-            <Item style={styles.inputstyle}>
-              <Input placeholder='Identification No' style={styles.input}
-                autoCapitalize="none"
-                autoCorrect={false}
-                onChangeText={this.setIcNo}
-              />
-            </Item>
-            <Item style={styles.inputstyle}>
-              <Input placeholder='Date of Birth' style={styles.input}
-                autoCapitalize="none"
-                autoCorrect={false}
-                onChangeText={this.setDOB}
-              />
-            </Item>
-            <Item style={styles.inputstyle}>
-              <Input placeholder='Address' style={styles.input}
-                autoCapitalize="none"
-                autoCorrect={false}
-                onChangeText={this.setAddress}
-              />
-            </Item>
             <Item style={styles.inputstyle}>
               <Input placeholder='Email' style={styles.input}
                 autoCapitalize="none"
@@ -146,6 +73,11 @@ export default class SignupScreen extends React.Component {
               style={{ margin: 20, backgroundColor: "#4f8b45", marginTop: 20, width: 250 }}onPress={() => this.signUp(this.state.email, this.state.password)}>
               <Text>Create Account</Text>
             </Button>
+            <Text 
+                style={styles.loginText}
+                onPress={() => Actions.LoginScreen()}>
+                Already Registered? Click here to login
+            </Text>
           </Form>
           </Container>
         </Container>
@@ -158,16 +90,18 @@ export default class SignupScreen extends React.Component {
     container: {
       flex: 1,
       backgroundColor: "#cdebc9",
-      //alignItems: "center",
       justifyContent: "center",
       padding: 20,
+      
     },
     container2: {
       flex: 1,
       backgroundColor: "white",
       borderRadius: 20 ,
-      //alignItems: "center",
       padding: 15,
+      marginTop: 30,
+      marginBottom: 30
+      
     },
     input: {
         justifyContent: 'center',
@@ -175,9 +109,13 @@ export default class SignupScreen extends React.Component {
         backgroundColor: '#d8ebd5',
         borderColor: '#d8ebd5',
     },
+    loginText: {
+      color: '#00599e',
+      marginTop: 10,
+      textAlign: 'center'
+    },
     inputstyle: {
         width: 260,
         marginTop: 15
     }
   });
-  

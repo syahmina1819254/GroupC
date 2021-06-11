@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Actions } from 'react-native-router-flux';
-import { Alert, StyleSheet, Image, ImageBackground, ScrollView, ScrollViewComponent} from 'react-native';
-import { Container, Content, Footer, FooterTab, Button, Icon, Text, Form, Item, Label, Input, View} from 'native-base';
+import { Alert, StyleSheet, Image, ScrollView} from 'react-native';
+import { Container, Button, Text, Form, Item, Input} from 'native-base';
 import * as firebase from 'firebase';
-import { color } from 'react-native-reanimated';
 
 
 export default class LoginScreen extends Component {
