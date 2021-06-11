@@ -46,18 +46,18 @@ User can simply select the organisation that they want to donate and proceed to 
 ## A sequence diagram to represent the interaction of the proposed mobile application.
 
 ### 1. LogIn Page 
-![1](https://user-images.githubusercontent.com/55779824/116255438-d41bd100-a7a4-11eb-9857-41cdca2b5c51.PNG)
+![1](https://user-images.githubusercontent.com/55779756/121680541-46920780-caec-11eb-8161-d8e99d7ceeb3.png)
 
 
 ### 2. Registration Page 
-![3]![REGISTER](https://user-images.githubusercontent.com/55779756/121680254-e8652480-caeb-11eb-8cb8-af1f24f63f00.png)
+![2](https://user-images.githubusercontent.com/55779756/121680254-e8652480-caeb-11eb-8cb8-af1f24f63f00.png)
 
 
 ### 3. Dashboard Page 
-![2](https://user-images.githubusercontent.com/55779824/116255623-01687f00-a7a5-11eb-84c2-f763019383ff.PNG)
+![3](https://user-images.githubusercontent.com/55779824/116255623-01687f00-a7a5-11eb-84c2-f763019383ff.PNG)
 
 ### 4. List of Oragnisation Page
-![5](https://user-images.githubusercontent.com/55779824/116255863-396fc200-a7a5-11eb-8418-0f5946c9411d.PNG)
+![4](https://user-images.githubusercontent.com/55779824/116255863-396fc200-a7a5-11eb-8418-0f5946c9411d.PNG)
 
 ### 5. Organisation Details Page 
 ![6](https://user-images.githubusercontent.com/55779824/116256141-7e93f400-a7a5-11eb-9adc-5b2a317fe3d8.PNG)
