@@ -91,13 +91,14 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 6. Payment and Make Donation page : Page for user to select which donation and the amount of the donation.  The user also choose which payment method that they use.
 ![payment](https://user-images.githubusercontent.com/55779851/121771973-2e31f380-cba5-11eb-96ed-b874fcc34fb2.JPG)
 
-### 7. Donation History
+### 7. Donation History : This page will display donation information at the Payment Page in the view of list. User can check and delete the donation that have made.
 ![Doantion history](https://user-images.githubusercontent.com/55779851/121771986-41dd5a00-cba5-11eb-9767-064e533236a5.JPG)
 
 
 ## Challenges/Diffuculties to develop the application.
 1. Ecountered some error that does not have the solution over the internet.   
 2. Challenge in configuring the development environment and dependencies where dependencies could be unmet or broke if not handle properly.
+3. Lack of source to refer lead us to unable develope the expected function.
 
 ## YouTube Presentation Link
 
