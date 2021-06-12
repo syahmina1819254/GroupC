@@ -79,6 +79,9 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 2. Registration Page : User is required to register their account using email and password before using the system. 
 ![2](https://user-images.githubusercontent.com/55779756/121682989-5bbc6580-caef-11eb-9649-59c1a7142e16.jpg)
 
+### 3. Dashboard Page
+![dashboard](https://user-images.githubusercontent.com/55779851/121771895-c7143f00-cba4-11eb-9165-ca0ca94220b3.JPG)
+
 ## Challenges/Diffuculties to develop the application.
 1. Ecountered some error that does not have the solution over the internet.   
 
