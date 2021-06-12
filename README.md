@@ -26,7 +26,7 @@ User need to create their account to allow them make any donation through the ap
 User can view donation detail that has been made which is the date and the organisation. 
 
 *3. Payment gateway.*
-After users choose the organisation that they want to donate, user will proceed to payment where they can choose which method they want to use from the payment option such as online banking and debit or credit card.
+After users choose the organisation that they want to donate, user will choose which payment  method they want to use from the payment option such as online banking and debit or credit card.
 
 *4. List of Organisation.*
 User can view the detail of organisation which is about the organisation and the purpose of donation
@@ -82,8 +82,22 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 3. Dashboard Page
 ![dashboard](https://user-images.githubusercontent.com/55779851/121771895-c7143f00-cba4-11eb-9165-ca0ca94220b3.JPG)
 
+### 4. List of Organisation Page
+![List of organisation](https://user-images.githubusercontent.com/55779851/121771927-03479f80-cba5-11eb-9d5b-f1924d26fd98.JPG)
+
+### 5. Organisation Detail Page
+![Organisation detail](https://user-images.githubusercontent.com/55779851/121771962-178b9c80-cba5-11eb-8952-45501d575c43.JPG)
+
+### 6. Payment and Make Donation page : Page for user to select which donation and the amount of the donation.  The user also choose which payment method that they use.
+![payment](https://user-images.githubusercontent.com/55779851/121771973-2e31f380-cba5-11eb-96ed-b874fcc34fb2.JPG)
+
+### 7. Donation History
+![Doantion history](https://user-images.githubusercontent.com/55779851/121771986-41dd5a00-cba5-11eb-9767-064e533236a5.JPG)
+
+
 ## Challenges/Diffuculties to develop the application.
 1. Ecountered some error that does not have the solution over the internet.   
+2. Challenge in configuring the development environment and dependencies where dependencies could be unmet or broke if not handle properly.
 
 ## YouTube Presentation Link
 
