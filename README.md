@@ -57,6 +57,7 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 3. Dashboard Page
 ![dashboard](https://user-images.githubusercontent.com/55779851/121771895-c7143f00-cba4-11eb-9165-ca0ca94220b3.JPG)
 
+
 ### 4. List of Organisation Page
 ![List of organisation](https://user-images.githubusercontent.com/55779851/121771927-03479f80-cba5-11eb-9d5b-f1924d26fd98.JPG)
 
@@ -74,6 +75,7 @@ User can simply select the organisation that they want to donate and proceed to 
 1. Ecountered some error that does not have the solution over the internet.   
 2. Challenge in configuring the development environment and dependencies where dependencies could be unmet or broke if not handle properly.
 3. Lack of source to refer lead us to unable develop the expected function.
+4. The computing power of the machines used to code can be a bit limited and this can cause it to crash quite often.
 
 ## YouTube Presentation Link
 
