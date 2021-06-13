@@ -60,7 +60,7 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 4. List of Organisation Page
 ![List of organisation](https://user-images.githubusercontent.com/55779851/121771927-03479f80-cba5-11eb-9d5b-f1924d26fd98.JPG)
 
-### 5. Organisation Detail Page
+### 5. Organisation Detail Page : This page is for user to view the details of selected organisation. From this page, the user will get more information for the organisation and may click the 'Donate Now' button to proceed the donation process if they liked. Otherwise, the user may click the 'Back' button to go to the previous page. 
 ![Organisation detail](https://user-images.githubusercontent.com/55779851/121771962-178b9c80-cba5-11eb-8952-45501d575c43.JPG)
 
 ### 6. Payment and Make Donation page : Page for user to select which donation and the amount of the donation.  The user also choose which payment method that they use.
@@ -73,7 +73,7 @@ User can simply select the organisation that they want to donate and proceed to 
 ## Challenges/Diffuculties to develop the application.
 1. Ecountered some error that does not have the solution over the internet.   
 2. Challenge in configuring the development environment and dependencies where dependencies could be unmet or broke if not handle properly.
-3. Lack of source to refer lead us to unable develope the expected function.
+3. Lack of source to refer lead us to unable develop the expected function.
 
 ## YouTube Presentation Link
 
