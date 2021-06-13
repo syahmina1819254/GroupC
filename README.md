@@ -45,31 +45,6 @@ User can simply select the organisation that they want to donate and proceed to 
 
 ## A sequence diagram to represent the interaction of the proposed mobile application.
 
-### 1. LogIn Page 
-![1](https://user-images.githubusercontent.com/55779756/121680541-46920780-caec-11eb-8161-d8e99d7ceeb3.png)
-
-
-### 2. Registration Page 
-![2](https://user-images.githubusercontent.com/55779756/121680254-e8652480-caeb-11eb-8cb8-af1f24f63f00.png)
-
-
-### 3. Dashboard Page 
-![3](https://user-images.githubusercontent.com/55779824/116255623-01687f00-a7a5-11eb-84c2-f763019383ff.PNG)
-
-### 4. List of Oragnisation Page
-![4](https://user-images.githubusercontent.com/55779824/116255863-396fc200-a7a5-11eb-8418-0f5946c9411d.PNG)
-
-### 5. Organisation Details Page 
-![6](https://user-images.githubusercontent.com/55779824/116256141-7e93f400-a7a5-11eb-9adc-5b2a317fe3d8.PNG)
-
-### 6. Payment Page 
-![8](https://user-images.githubusercontent.com/55779824/116255977-54423680-a7a5-11eb-99bb-31c06e3953c5.PNG)
-
-### 7. Payment History Page
-![Payment history latest](https://user-images.githubusercontent.com/55779824/121317131-9336e080-c93c-11eb-8e7f-db41182b484f.PNG)
-
-### 8. Nav Bar
-![9](https://user-images.githubusercontent.com/55779824/116256274-a1260d00-a7a5-11eb-9f91-eaf9804e4b82.PNG)
 
 ## Project system captured screen and explaination.
 
