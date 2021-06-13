@@ -54,11 +54,11 @@ User can simply select the organisation that they want to donate and proceed to 
 ### 2. Registration Page : User is required to register their account using email and password before using the system. 
 ![2](https://user-images.githubusercontent.com/55779756/121682989-5bbc6580-caef-11eb-9649-59c1a7142e16.jpg)
 
-### 3. Dashboard Page
+### 3. Dashboard Page: User is able to see the logos of the donations available via the slider on the page. User is able to Make a Donation through this page. User can also view the list of donations by clicking the List of Donation button. 
 ![dashboard](https://user-images.githubusercontent.com/55779851/121771895-c7143f00-cba4-11eb-9165-ca0ca94220b3.JPG)
 
 
-### 4. List of Organisation Page
+### 4. List of Organisation Page Thus page displays the registered organizations that the user can make a donation to. The user is able to click the list and they will be navigated to the organization details they clicked on.
 ![List of organisation](https://user-images.githubusercontent.com/55779851/121771927-03479f80-cba5-11eb-9d5b-f1924d26fd98.JPG)
 
 ### 5. Organisation Detail Page : This page is for user to view the details of selected organisation. From this page, the user will get more information for the organisation and may click the 'Donate Now' button to proceed the donation process if they liked. Otherwise, the user may click the 'Back' button to go to the previous page. 
